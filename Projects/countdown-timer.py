@@ -12,13 +12,13 @@ print(f"Hello {name}")
 
 my_time = int(input("Enter the time in seconds: "))
 
-# While loop for an entering an invalid time
+# While loop for entering an invalid time
 
 while my_time <= 0:
     print(f"{my_time} is not a valid time")
     my_time = int(input("Enter the time in seconds: "))
 
-# Timer program (for loop)
+# Timer countdown program (for loop)
 
 for x in range(my_time, 0, -1):
     seconds = x % 60
