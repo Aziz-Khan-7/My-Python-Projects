@@ -3,7 +3,7 @@
 
 input("Hello and welcome to the: 'Random Python Project', Press enter to continue.")
 
-# Collect user information
+# Collect user information 
 
 full_name = input("Please enter your full name: ")
 age = float(input("Please enter your age: "))
